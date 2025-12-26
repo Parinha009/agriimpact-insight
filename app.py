@@ -126,7 +126,7 @@ def markdown_table(counts: dict, header1: str, header2: str) -> str:
 def main():
     """Main entry point for the Streamlit application."""
     st.set_page_config(page_title="AgriImpact Insight", layout="wide")
-    st.title("AgriImpact Insight (No Pandas)")
+    st.title("AgriImpact Insight ")
     init_db()
 
     tab1, tab2, tab3 = st.tabs([
